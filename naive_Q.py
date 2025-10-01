@@ -29,7 +29,7 @@ A_QUANT = 'per_tensor' # [per_token, per_tensor]
 ################################ <MSB_LSB_Quant_Functions> ################################ 
 
 def split_msb_lsb_quantize(w, 
-                           n_bits_total=8, #16
+                           n_bits_total=16, #16
                            n_msb=2, 
                            n_bits_lsb_quant=8):
     """
