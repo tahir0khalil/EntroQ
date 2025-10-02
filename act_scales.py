@@ -75,5 +75,5 @@ def get_act_scales(model, tokenizer, dataset_path, num_samples, seq_len):
     return act_scales
 
 act_scales = get_act_scales(model, tokenizer, DATASET_PATH, NUM_SAMPLES, SEQ_LEN)    
-os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
-torch.save(act_scales, OUTPUT_PATH)
+# os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+# torch.save(act_scales, OUTPUT_PATH)
